@@ -1,0 +1,115 @@
+body {
+    background-color: #F2E6D8;
+}
+
+h1 {
+    background: #F2A950;
+    font-family: Verdana;
+    color: #8C7A64;
+    text-shadow: 1px 1px darkslategrey; 
+    text-align: center;
+    width: 500px;
+}
+
+h3{
+    color: #73624D;
+}
+
+img {
+    float: right;
+    padding-left: 15px;
+    padding-bottom: 15px;;
+    overflow: auto;
+}
+
+/* Table CSS */
+
+#table {
+    clear: right;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: #868C54;
+    color:#F2E6D8;
+    text-shadow: darkgray 1px 1px;
+}
+
+td {
+    text-align: center;
+}
+
+/* Form CSS */
+
+form {
+    background-color:#A4BF69;
+    width: 15%;
+}
+
+#button {
+    background-color: #73624D;
+    border: none;
+    padding: 5px 5px;
+    color: white;
+    font-size:medium;
+    cursor: pointer;
+}
+
+/* General text including lists */
+.text {
+    font-family: Verdana;
+    color: #73624D;
+}
+
+/* This is for the homepage image so it won't float */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+/* This is the CSS for the menu. */
+div.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #8C7A64;
+    text-align: center;
+}
+
+div.menu li {
+    display: inline;
+}
+
+div.menu li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:Verdana;
+    font-size: larger;
+}
+
+div.menu li a:hover {
+      background-color: #7e944d;
+      
+}
+
+div.menu .active {
+    background-color: #A4BF69;
+    padding: 15px 0px;
+}
+
